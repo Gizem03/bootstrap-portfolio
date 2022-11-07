@@ -1,0 +1,9 @@
+.container .profile-picture {
+  background-image: url("/images/gizem.png");
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
