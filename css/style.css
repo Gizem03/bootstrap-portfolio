@@ -61,3 +61,37 @@
 #latest {
   grid-area: latest;
 }
+
+#aboutcontact {
+  justify-content: flex-end;
+}
+
+#about-contact {
+  display: flex;
+}
+
+#about-contact > #about {
+  flex-basis: 50%;
+}
+
+#about-contact > section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+#about-contact > #contact {
+  flex-basis: 50%;
+  border-left: 4px solid var(--rhythm);
+}
+
+.contact-menu-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.contact-menu-list > li {
+  padding: 5px;
+}
