@@ -18,9 +18,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Bootstrap Portfolio</title>
   </head>
-  <header>
-    <!-- nav bar -->
 
+  <!-- nav bar -->
+
+  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Gizem</a>
       <button
@@ -37,16 +38,16 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
+          <li class="nav-item">
+            <a class="nav-link" href="#work"
               >Work <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Skills</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About & Contact</a>
+            <a class="nav-link" href="#aboutcontact">About & Contact</a>
           </li>
         </ul>
       </div>
@@ -61,10 +62,11 @@
       </div>
     </div>
   </header>
-  <body>
-    <!-- work -->
 
-    <section class="container-fluid container" id="work">
+  <!-- work -->
+
+  <body>
+    <section class="container" id="work">
       <h2>Work</h2>
       <div class="card" style="width: 18rem">
         <img
@@ -75,8 +77,7 @@
         <div class="card-body">
           <h5 class="card-title">Furniture Shop</h5>
           <p class="card-text">
-            Building a furniture shop webpage with CSS Grid to create polished,
-            professional-level layouts.
+            Building a furniture shop webpage with CSS Grid.
           </p>
           <a
             href="https://gizem03.github.io/shop-grid-landing-page/"
@@ -114,9 +115,7 @@
         <div class="card-body">
           <h5 class="card-title">Horiseon Landing Page</h5>
           <p class="card-text">
-            A code refactor for the fictional company Horiseon home page. The
-            purposes of this refactoring are to improve its accessibility and
-            the search engine optimization and overall semantic structure.
+            A code refactor for the fictional company Horiseon home page.
           </p>
           <a
             href="https://gizem03.github.io/horiseon-home-page-refactor/"
@@ -143,41 +142,43 @@
 
     <!-- about & contact -->
 
-    <div class="container">
+    <div class="container" id="aboutcontact">
       <h2>About & Contact</h2>
-      <div id="about">
-        <h3>About me</h3>
-        <p>
-          Hello! I’m Gizem, a Front-End Web Developer student based in London.
-          You can view my projects above!
-        </p>
-      </div>
-      <div id="contact">
-        <h3>Contact</h3>
-        <p>Get in touch!</p>
-        <ul class="contact-menu-list page-section-content">
-          <li>
-            <a href="https://twitter.com/" target="_blank"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://github.com/Gizem03" target="_blank"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/" target="_blank"
-              ><i class="fa-brands fa-linkedin"></i
-            ></a>
-          </li>
-          <li>
-            <i class="fa-solid fa-square-envelope"></i>
-          </li>
-          <li>
-            <i class="fa-solid fa-phone"></i>
-          </li>
-        </ul>
+      <div id="about-contact">
+        <div id="about">
+          <h3>About me</h3>
+          <p>
+            Hello! I’m Gizem, a Front-End Web Developer student based in London.
+            You can view my projects above!
+          </p>
+        </div>
+        <div id="contact">
+          <h3>Contact</h3>
+          <p>Get in touch!</p>
+          <ul class="contact-menu-list page-section-content">
+            <li>
+              <a href="https://twitter.com/" target="_blank"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/Gizem03" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <i class="fa-solid fa-square-envelope"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
