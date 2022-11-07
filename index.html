@@ -10,6 +10,10 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/702e389c8c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Bootstrap Portfolio</title>
   </head>
   <header>
@@ -31,14 +35,14 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              >About me <span class="sr-only">(current)</span></a
+              >Work <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
+            <a class="nav-link" href="#">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact me</a>
+            <a class="nav-link" href="#">About & Contact</a>
           </li>
         </ul>
       </div>
@@ -50,7 +54,8 @@
     </div>
   </header>
   <body>
-    <section>
+    <section class="container-fluid container" id="work">
+      <h2>Work</h2>
       <div class="card" style="width: 18rem">
         <img src="..." class="card-img-top" alt="..." />
         <div class="card-body">
@@ -85,14 +90,52 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="container" id="skills">
+      <h2>Skills</h2>
       <ul class="list-group">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
-        <li class="list-group-item">Porta ac consectetur ac</li>
-        <li class="list-group-item">Vestibulum at eros</li>
+        <li class="list-group-item">Html</li>
+        <li class="list-group-item">Css</li>
+        <li class="list-group-item">Javascript</li>
+        <li class="list-group-item">React</li>
+        <li class="list-group-item">Bootstrap</li>
       </ul>
     </section>
+    <div class="container">
+      <h2>About & Contact</h2>
+      <div id="about">
+        <h3>About me</h3>
+        <p>
+          Hello! I’m Gizem, a Front-End Web Developer student based in London.
+          You can view my projects above!
+        </p>
+      </div>
+      <div id="contact">
+        <h3>Contact</h3>
+        <p>Get in touch!</p>
+        <ul class="contact-menu-list page-section-content">
+          <li>
+            <a href="https://twitter.com/" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/Gizem03" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <i class="fa-solid fa-square-envelope"></i>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
