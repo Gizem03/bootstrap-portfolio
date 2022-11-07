@@ -14,8 +14,24 @@
   align-items: center;
 }
 
+.navbar-brand {
+  font-size: 32px;
+}
+
 .collapse.navbar-collapse {
   flex-grow: unset;
+}
+
+.jumbotron .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jumbotron .container h1 {
+  margin: 0;
+  margin-right: 10px;
+  height: 100px;
+  line-height: 100px;
 }
 
 .container .profile-picture {
@@ -60,6 +76,10 @@
 
 #latest {
   grid-area: latest;
+}
+
+.list-group-item {
+  text-align: center;
 }
 
 #aboutcontact {
