@@ -1,3 +1,11 @@
+:root {
+  --charcoal: #313e50ff;
+  --independence: #3a435eff;
+  --black-coral: rgba(69, 85, 97, 0.493);
+  --black-coral-2: #5c6672ff;
+  --rhythm: #6c6f7fff;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -32,5 +40,24 @@
   flex-basis: 25%;
   text-align: right;
   font-size: 32px;
-  border-right: 4px cornflowerblue;
+  border-right: 4px solid var(--rhythm);
+  padding: 20px;
+}
+
+.container > .page-section {
+  flex-basis: 75%;
+  padding: 20px;
+}
+
+#project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "latest latest";
+  grid-template-rows: 600px;
+  grid-auto-rows: 400px;
+  grid-gap: 20px;
+}
+
+#latest {
+  grid-area: latest;
 }
