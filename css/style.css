@@ -15,7 +15,13 @@
 }
 
 .navbar-brand {
-  font-size: 32px;
+  font-size: 2rem;
+}
+
+@media (max-width: 400px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
 }
 
 .collapse.navbar-collapse {
@@ -32,6 +38,12 @@
   margin-right: 10px;
   height: 100px;
   line-height: 100px;
+}
+
+@media (max-width: 400px) {
+  .jumbotron .container h1 {
+    font-size: 2rem;
+  }
 }
 
 .container .profile-picture {
@@ -53,15 +65,21 @@
 }
 
 .container > h2 {
-  flex-basis: 25%;
   text-align: right;
   font-size: 32px;
   border-right: 4px solid var(--rhythm);
   padding: 20px;
 }
 
+@media (max-width: 400px) {
+  .container > h2 {
+    text-align: center;
+    border-bottom: 4px solid var(--rhythm);
+    border-right: unset;
+  }
+}
+
 .container > .page-section {
-  flex-basis: 75%;
   padding: 20px;
 }
 
