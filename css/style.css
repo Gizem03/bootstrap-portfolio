@@ -18,7 +18,7 @@
   font-size: 2rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   .navbar-brand {
     font-size: 1rem;
   }
@@ -40,7 +40,7 @@
   line-height: 100px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   .jumbotron .container h1 {
     font-size: 2rem;
   }
@@ -71,7 +71,7 @@
   padding: 20px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   .container > h2 {
     text-align: center;
     border-bottom: 4px solid var(--rhythm);
