@@ -35,7 +35,7 @@
 }
 
 .container .profile-picture {
-  background-image: url("/images/gizem.png");
+  background-image: url("../images/gizem.png");
   width: 100px;
   height: 100px;
   background-position: center;
