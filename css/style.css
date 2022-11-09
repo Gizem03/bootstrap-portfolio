@@ -1,3 +1,4 @@
+/* general styles */
 :root {
   --charcoal: #313e50ff;
   --independence: #3a435eff;
@@ -6,6 +7,7 @@
   --rhythm: #6c6f7fff;
 }
 
+/* main/ nav bar styles */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -28,6 +30,7 @@
   flex-grow: unset;
 }
 
+/* hero section styles */
 .jumbotron .container {
   display: flex;
   justify-content: flex-end;
@@ -56,17 +59,7 @@
   border-radius: 50%;
 }
 
-#about-contact {
-  display: flex;
-}
-
-@media (max-width: 576px) {
-  #about-contact {
-    font-size: 0.75rem;
-    text-align: center;
-  }
-}
-
+/* work and skills section styles */
 .container-fluid {
   display: flex;
 }
@@ -98,6 +91,7 @@
     max-width: 100%;
   }
 }
+
 #project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -115,12 +109,20 @@
   text-align: center;
 }
 
-#aboutcontact {
-  justify-content: flex-end;
-}
-
+/* about & contact styles */
 #about-contact {
   display: flex;
+}
+
+@media (max-width: 576px) {
+  #about-contact {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
+
+#aboutcontact {
+  justify-content: flex-end;
 }
 
 #about-contact > #about {
@@ -149,6 +151,7 @@
   padding: 5px;
 }
 
+/* footer styles */
 footer button:hover {
   box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
 }
