@@ -15,7 +15,7 @@
 }
 
 .navbar-brand {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 576px) {
@@ -60,6 +60,13 @@
   display: flex;
 }
 
+@media (max-width: 576px) {
+  #about-contact {
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
+
 .container-fluid {
   display: flex;
 }
@@ -95,8 +102,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: "latest latest";
-  grid-template-rows: 600px;
-  grid-auto-rows: 400px;
+  grid-template-rows: 6fr;
+  grid-auto-rows: 4fr;
   grid-gap: 20px;
 }
 
